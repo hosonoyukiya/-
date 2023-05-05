@@ -71,44 +71,42 @@ footer {
     width: 100%;
   }
 
-
-main　{
-  width: 100%
-
-}
-
-.step-box　{
+#main1 {
+  display:block;
+  width:100%;
   margin:0 auto;
+  margin-top:50px;
+  margin-bottom:50px;
+}
+
+/*main　{*/
+/*  width: 100%*/
+/*}*/
+
+
+
+#main1 div {
   width:90%;
-
-}
-.step-box:nth-child(2)　{
-  margin-top: 20px
-}
-
-.step-box:last-child　{
-  margin: 0 auto;
-  margin-top: 20px
-
+  margin:0 auto;
 }
 
 .step-img1　{
   width:100%;
   background-image: url(img/flow01.png);
-
+  background-position: center;
 
 }
 
 .step-img2　{
   width:100%;
   background-image: url(img/flow02.png);
-
+  background-position: center;
 
 }
 
 .step-img3　{
   width:100%;
   background-image: url(img/flow03.png);
-
+  background-position: center;
 
 }
